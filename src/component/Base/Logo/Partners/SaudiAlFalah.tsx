@@ -1,4 +1,4 @@
-import saudiAlFalah from "../../../../assets/image/home/partners/saudiAlFalah.png";
+import saudiAlFalah from "../../../../assets/image/home/partners/saudiAlFalah.svg";
 
 const SaudiAlFalah = () => {
   return <img src={saudiAlFalah} alt="SaudiAlFalah" />;
