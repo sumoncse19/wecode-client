@@ -6,7 +6,7 @@ import Button from "../../../component/Base/Button";
 const NavBar = () => {
   return (
     <header className="px-[50px] py-[20px]">
-      <div className="flex justify-between items-center">
+      <div className="flex flex-wrap justify-between items-center">
         <div className="flex space-x-8 items-center">
           <div className="flex space-x-6">
             <WeCodeLogo />
