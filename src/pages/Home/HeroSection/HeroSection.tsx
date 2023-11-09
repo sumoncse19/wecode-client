@@ -7,8 +7,8 @@ import CreativeThink from "../../../component/Base/Icons/Idea";
 
 const HeroSection = () => {
   return (
-    <div className=" lg:h-[80vh] relative flex flex-col-reverse gap-8 lg:gap-0 lg:block">
-      <div className="flex h-[90%] items-center px-12 lg:pl-12">
+    <div className=" lg:h-[72.5vh] relative flex flex-col-reverse gap-8 lg:gap-0 lg:block">
+      <div className="flex h-full items-center px-12 lg:pl-12">
         <div className="flex flex-col space-y-5 w-full lg:w-1/2">
           <div className="capitalize text-6xl font-bold">
             your <span className="text-purple-primary">platform</span> for{" "}
@@ -46,7 +46,7 @@ const HeroSection = () => {
       <div className="lg:absolute h-full lg:right-0 lg:top-0 w-full lg:w-1/2 mx-auto flex lg:block justify-center lg:justify-normal lg:pl-12">
         {/* <img src={HomeHeroGirl} alt="HomeHeroGirl" className="h-full w-full" /> */}
 
-        <div className="aspect-auto relative w-full">
+        <div className="aspect-auto relative w-full h-full">
           <svg
             height="605"
             viewBox="0 0 602 605"
@@ -321,8 +321,8 @@ const HeroSection = () => {
 
           <svg
             width="100%"
-            height="605"
-            viewBox="0 0 100% 605"
+            height="100%"
+            viewBox="0 0 100% 100%"
             className="absolute top-0 left-0"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
