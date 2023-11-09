@@ -6,14 +6,17 @@ import Button from "../../../component/Base/Button";
 const NavBar = () => {
   return (
     <header className="px-[50px] py-[20px]">
-      <div className="flex flex-wrap justify-between items-center">
-        <div className="flex space-x-8 items-center">
-          <div className="flex space-x-6">
+      <div className="flex flex-wrap gap-2 justify-between items-center">
+        <div className="flex flex-wrap gap-8 items-center">
+          <div className="flex flex-wrap gap-6">
             <WeCodeLogo />
             <div className="border border-solid border-[#D0D5DD] rounded-lg flex justify-between space-x-5 items-center pl-3.5">
               <div className="flex space-x-2 py-2.5">
                 <SearchOutlined />
-                <div className="text-[#667085]">Want to learn ?</div>
+                <input
+                  className="text-[#667085] outline-none border-none"
+                  placeholder="Want to learn ?"
+                />
               </div>
               <DropDown />
             </div>
