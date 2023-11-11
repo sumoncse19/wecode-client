@@ -6,8 +6,8 @@ import Button from "../../../component/Base/Button";
 const NavBar = () => {
   return (
     <header className="px-[50px] py-[20px]">
-      <div className="flex flex-wrap gap-2 justify-between items-center">
-        <div className="flex flex-wrap gap-8 items-center">
+      <div className="flex flex-wrap gap-2 justify-end xl:justify-between items-center">
+        <div className="flex flex-wrap gap-8 justify-start lg:flex-1 lg:justify-between xl:justify-normal items-center">
           <div className="flex flex-wrap gap-6">
             <WeCodeLogo />
             <div className="border border-solid border-[#D0D5DD] rounded-lg flex justify-between space-x-5 items-center pl-3.5">
