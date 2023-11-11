@@ -1,4 +1,5 @@
 import HeroSection from "../HeroSection/HeroSection";
+import MostPopularCourse from "../MostPopularCourse/MostPopularCourse";
 import PartnersSection from "../PartnersSection/PartnersSection";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <HeroSection />
       <PartnersSection />
+      <MostPopularCourse />
     </div>
   );
 };
