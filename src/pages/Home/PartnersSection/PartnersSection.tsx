@@ -7,7 +7,10 @@ import OrangeTm from "../../../component/Base/Logo/Partners/OrangeTm";
 
 const PartnersSection = () => {
   return (
-    <div className="px-[50px] py-6 bg-[#F9F5FF]">
+    <div
+      className="px-[50px] py-6"
+      style={{ backgroundImage: "linear-gradient(45deg, #F9F5FF, #e9e3f3c7)" }}
+    >
       <h2 className="text-center">
         <span className="text-[#7F56D9]">250+</span> Partnership with
         enterprises and universities

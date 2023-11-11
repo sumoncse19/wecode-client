@@ -7,7 +7,7 @@ import CreativeThink from "../../../component/Base/Icons/Idea";
 
 const HeroSection = () => {
   return (
-    <div className=" lg:h-[72.5vh] relative flex flex-col-reverse gap-8 lg:gap-0 lg:block">
+    <div className="py-10 lg:h-[72.5vh] relative flex flex-col-reverse gap-8 lg:gap-0 lg:block">
       <div className="flex h-full items-center px-12 lg:pl-12">
         <div className="flex flex-col space-y-5 w-full lg:w-1/2">
           <div className="capitalize text-6xl font-bold">
@@ -48,9 +48,8 @@ const HeroSection = () => {
 
         <div className="aspect-auto relative w-full h-full">
           <svg
-            height="605"
             viewBox="0 0 602 605"
-            className="w-full mx-auto lg:w-[602px]"
+            className="mx-auto w-full lg:w-[602px] h-[405px] md:h-[605px] lg:h-full"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -321,9 +320,9 @@ const HeroSection = () => {
 
           <svg
             width="100%"
-            height="100%"
-            viewBox="0 0 100% 100%"
-            className="absolute top-0 left-0"
+            height="605"
+            viewBox="0 0 100% 605"
+            className="absolute bottom-0 left-0"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
